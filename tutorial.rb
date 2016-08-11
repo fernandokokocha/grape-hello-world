@@ -7,7 +7,10 @@ module Tutorial
     format :json
     prefix :api
 
-    desc 'Get hello world'
+    desc 'Get hello world' do
+      detail 'This endpoint has no real usage. '\
+             'It only shows what can be done with Grape and Swagger.'
+    end
     get :hello do
       {
         message: 'Hello world'
