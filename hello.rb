@@ -1,3 +1,5 @@
+require 'grape'
+
 module Tutorial
   class Hello < Grape::API
     namespace :hello, desc: 'Nothing really useful' do

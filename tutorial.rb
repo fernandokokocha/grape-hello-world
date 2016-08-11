@@ -1,6 +1,6 @@
 require 'grape'
 require 'grape-swagger'
-require './hello.rb'
+require_relative './hello'
 
 module Tutorial
   class API < Grape::API
