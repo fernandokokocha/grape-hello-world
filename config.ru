@@ -1,3 +1,3 @@
-require './tutorial.rb'
+require './app/app'
 
 run Tutorial::API

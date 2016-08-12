@@ -8,7 +8,7 @@ module Tutorial
     format :json
     prefix :api
 
-    mount Tutorial::Hello => '/'
+    mount Tutorial::Hello
 
     add_swagger_documentation
   end
